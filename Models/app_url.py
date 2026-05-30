@@ -72,9 +72,11 @@ st.markdown(
 # -----------------------------------
 # LOAD DATASET
 # -----------------------------------
-df = pd.read_csv(
-    r"C:\Users\madhu\Downloads\Telegram Desktop\ml project\dataset1.csv"
-)
+
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+DATASET_PATH = os.path.join(BASE_DIR, "dataset1.csv")
+
+df = pd.read_csv(DATASET_PATH)
 
 df.columns = df.columns.str.strip()
 
