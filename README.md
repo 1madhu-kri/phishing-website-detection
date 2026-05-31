@@ -117,7 +117,7 @@ streamlit run app_url.py
 ```
 
 ---
-
+[🚀 Live Demo](https://phishing-website-detection-my.streamlit.app/)
 ## Screenshots
 
 Add screenshots of:
